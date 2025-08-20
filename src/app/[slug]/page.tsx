@@ -14,3 +14,7 @@ export default async function Page({
 
   return <div>Foo bar {slug}</div>;
 }
+
+export async function generateStaticParams() {
+  return [{ slug: "baz" }, { slug: "qux" }];
+}
