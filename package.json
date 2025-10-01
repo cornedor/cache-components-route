@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "babel-plugin-react-compiler": "^19.1.0-rc.2",
-    "next": "15.4.2-canary.56",
+    "next": "^15.6.0-canary.38",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
@@ -21,7 +21,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.4.2-canary.56",
+    "eslint-config-next": "^15.6.0-canary.38",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
