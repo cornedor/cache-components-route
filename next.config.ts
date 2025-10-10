@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
+  reactCompiler: true,
   experimental: {
-    reactCompiler: true,
     cacheComponents: true,
   },
 };
